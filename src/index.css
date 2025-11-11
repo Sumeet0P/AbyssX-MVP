@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* Remove underlines from all navigation links */
+nav a {
+  text-decoration: none !important;
+}
+
+nav a:hover,
+nav a:active,
+nav a:focus,
+nav a:visited {
+  text-decoration: none !important;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: saira;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("./fonts/Fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Italiana";
+  src: url("./fonts/Italiana/Italiana-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Michroma";
+  src: url("./fonts/Michroma/Michroma-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Saira";
+  src: url("./fonts/Saira/Saira-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+.font-fraunces {
+  font-family: "Fraunces", serif;
+}
+
+.font-italiana {
+  font-family: "Italiana", serif;
+}
+
+.font-michroma {
+  font-family: "Michroma", serif;
+}
+
+.font-saira {
+  font-family: "Saira", serif;
+}
